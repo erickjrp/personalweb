@@ -2,7 +2,7 @@
 
 	<div class="col-xs-12">
 		
-		<p class="titulo_sobre_mi text-center">
+		<p class="titulo_seccion text-center">
 			Sobre mí
 		</p>
 
@@ -21,7 +21,7 @@
 
 </div>
 
-<div class="row fila_separacion_sobre_mi">
+<div class="row separacion_fila">
 
 	<div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0 col-md-3 col-lg-3">
 		

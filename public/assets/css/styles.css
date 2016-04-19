@@ -1,3 +1,36 @@
+/*Para todas las secciones*/
+.raya_divisora{
+	background-color: #3498db;
+	height: 2px;
+	width: 100px;
+}
+.separacion_fila{
+	margin-top: 50px;
+}
+.titulo_seccion{
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 50px;
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.titulo_seccion{
+		font-size: 40px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.titulo_seccion{
+		font-size: 30px;
+	}
+}
+@media (max-width: 768px){
+	.titulo_seccion{
+		font-size: 30px;
+	}
+	.separacion_fila{
+		margin-top: 0px;
+	}
+}
+/*Finaliza para todas las secciones*/
 /*Sección uno*/
 .seccion_uno{
 	background-image: url('../images/seccion_uno/fondo.jpg');
@@ -54,21 +87,6 @@
 }
 /*Finaliza sección uno*/
 /*Sección dos*/
-.titulo_sobre_mi{
-	font-family: 'Open Sans', sans-serif;
-	font-style: italic;
-	font-size: 50px;
-}
-.raya_divisora{
-	background-color: #3498db;
-	height: 2px;
-	width: 195px;
-}
-.imagen_sobre_mi{
-}
-.fila_separacion_sobre_mi{
-	margin-top: 50px;
-}
 .texto_sobre_mi{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
@@ -91,9 +109,6 @@
 	.titulo_sobre_mi{
 		font-size: 40px;
 	}
-	.raya_divisora{
-		width: 158px;
-	}
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.texto_sobre_mi{
@@ -101,9 +116,6 @@
 	}
 	.titulo_sobre_mi{
 		font-size: 30px;
-	}
-	.raya_divisora{
-		width: 118px;
 	}
 }
 @media (max-width: 768px){
@@ -114,11 +126,59 @@
 	.titulo_sobre_mi{
 		font-size: 30px;
 	}
-	.raya_divisora{
-		width: 118px;
-	}
-	.fila_separacion_sobre_mi{
-		margin-top: 0px;
-	}
 }
 /*Finaliza sección dos*/
+/*Sección tres*/
+.seccion_tres{
+	background-color: #f7f7f7;
+}
+.icono_habilidad{
+	margin-top: 16px;
+}
+.barra_progreso{
+	background: rgba(77, 87, 99, 0.13);
+}
+.habilidades{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+}
+.separacion_habilidades{
+	margin-top: 30px;
+}
+.icono_diseno_adaptativo{
+	width: 40px;
+	margin-top: 16px;
+}
+@media (min-width: 992px) and (max-width: 1199px){
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.habilidades{
+		font-size: 20px;
+	}
+	.icono_habilidad{
+		margin-top: 31px;
+	}
+	.separacion_habilidades{
+		margin-top: 15px;
+	}
+	.icono_diseno_adaptativo{
+		width: 30px;
+		margin-top: 31px;
+	}
+}
+@media (max-width: 768px){
+	.habilidades{
+		font-size: 15px;
+	}
+	.icono_habilidad{
+		margin-top: 24px;
+	}
+	.separacion_habilidades{
+		margin-top: 0px;
+	}
+	.icono_diseno_adaptativo{
+		width: 29px;
+		margin-top: 25px;
+	}
+}
+/*Finaliza sección tres*/
