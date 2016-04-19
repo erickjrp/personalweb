@@ -1,0 +1,124 @@
+/*Sección uno*/
+.seccion_uno{
+	background-image: url('../images/seccion_uno/fondo.jpg');
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.imagen_perfil{
+	width: 250px;
+}
+.nombre{
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	color: white;
+	font-size: 60px;
+	margin-top: 20px;
+	margin-bottom: 1px !important;
+}
+.separador{
+	width: 500px;
+}
+.segundo_texto{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 30px;
+}
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.nombre{
+		font-size: 50px;
+	}
+	.separador{
+		width: 425px;
+	}
+	.segundo_texto{
+		font-size: 25px;
+	}
+}
+@media (max-width: 768px){
+	.nombre{
+		font-size: 40px;
+	}
+	.separador{
+		width: 340px;
+	}
+	.segundo_texto{
+		font-size: 20px;
+	}
+	.imagen_perfil{
+		width: 200px;
+	}
+}
+/*Finaliza sección uno*/
+/*Sección dos*/
+.titulo_sobre_mi{
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 50px;
+}
+.raya_divisora{
+	background-color: #3498db;
+	height: 2px;
+	width: 195px;
+}
+.imagen_sobre_mi{
+}
+.fila_separacion_sobre_mi{
+	margin-top: 50px;
+}
+.texto_sobre_mi{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+.separacion_intereses{
+	margin-top: 50px;
+}
+.titulo_intereses{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+}
+.texto_intereses{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.texto_sobre_mi{
+		font-size: 17px;
+	}
+	.titulo_sobre_mi{
+		font-size: 40px;
+	}
+	.raya_divisora{
+		width: 158px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.texto_sobre_mi{
+		font-size: 14px;
+	}
+	.titulo_sobre_mi{
+		font-size: 30px;
+	}
+	.raya_divisora{
+		width: 118px;
+	}
+}
+@media (max-width: 768px){
+	.texto_sobre_mi{
+		margin-top: 15px;
+		font-size: 14px;
+	}
+	.titulo_sobre_mi{
+		font-size: 30px;
+	}
+	.raya_divisora{
+		width: 118px;
+	}
+	.fila_separacion_sobre_mi{
+		margin-top: 0px;
+	}
+}
+/*Finaliza sección dos*/
