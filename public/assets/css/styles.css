@@ -149,6 +149,10 @@
 	width: 40px;
 	margin-top: 16px;
 }
+.icono_bootstrap{
+	width: 37px;
+	margin-top: 18px;
+}
 @media (min-width: 992px) and (max-width: 1199px){
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -165,6 +169,10 @@
 		width: 30px;
 		margin-top: 31px;
 	}
+	.icono_bootstrap{
+		width: 25px;
+		margin-top: 33px;
+	}
 }
 @media (max-width: 768px){
 	.habilidades{
@@ -179,6 +187,10 @@
 	.icono_diseno_adaptativo{
 		width: 29px;
 		margin-top: 25px;
+	}
+	.icono_bootstrap{
+		width: 25px;
+		margin-top: 26px;
 	}
 }
 /*Finaliza sección tres*/

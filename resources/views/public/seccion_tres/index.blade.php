@@ -91,8 +91,7 @@
 
 	<div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 text-right">
 
-		<i class="fa fa-css3 fa-3x icono_habilidad hidden-xs hidden-sm" aria-hidden="true"></i>
-		<i class="fa fa-css3 fa-2x icono_habilidad visible-xs-block visible-sm-block" aria-hidden="true"></i>
+		<img src="{{ URL::asset('assets/images/seccion_tres/bootstrap_icon.png') }}" class="icono_bootstrap pull-right" alt="Diseño adaptativo">
 
 	</div>
 
@@ -105,6 +104,50 @@
 		<div class="progress barra_progreso">
 			<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
 				<span class="sr-only">95% Complete</span>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+<div class="row separacion_habilidades">
+
+	<div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 text-right">
+
+		<img src="{{ URL::asset('assets/images/seccion_tres/responsive_icon.png') }}" class="icono_diseno_adaptativo pull-right" alt="Diseño adaptativo">
+
+	</div>
+
+	<div class="col-xs-10 col-sm-5 col-md-5 col-lg-5">
+			
+		<p class="habilidades">
+			JavaScript
+		</p>
+
+		<div class="progress barra_progreso">
+			<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+				<span class="sr-only">75% Complete</span>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 text-right">
+
+		<img src="{{ URL::asset('assets/images/seccion_tres/bootstrap_icon.png') }}" class="icono_bootstrap pull-right" alt="Diseño adaptativo">
+
+	</div>
+
+	<div class="col-xs-10 col-sm-5 col-md-5 col-lg-5">
+			
+		<p class="habilidades">
+			ANGULAR JS
+		</p>
+
+		<div class="progress barra_progreso">
+			<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+				<span class="sr-only">60% Complete</span>
 			</div>
 		</div>
 
