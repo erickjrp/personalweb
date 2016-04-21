@@ -25,8 +25,7 @@
 
 	<div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 text-right">
 
-		<i class="fa fa-html5 fa-3x icono_habilidad hidden-xs hidden-sm" aria-hidden="true"></i>
-		<i class="fa fa-html5 fa-2x icono_habilidad visible-xs-block visible-sm-block" aria-hidden="true"></i>
+		<img src="{{ URL::asset('assets/images/seccion_tres/html5_icon.png') }}" class="icono_habilidad pull-right" alt="HTML5">
 
 	</div>
 
@@ -46,8 +45,7 @@
 
 	<div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 text-right">
 
-		<i class="fa fa-css3 fa-3x icono_habilidad hidden-xs hidden-sm" aria-hidden="true"></i>
-		<i class="fa fa-css3 fa-2x icono_habilidad visible-xs-block visible-sm-block" aria-hidden="true"></i>
+		<img src="{{ URL::asset('assets/images/seccion_tres/css3_icon.png') }}" class="icono_habilidad pull-right" alt="CSS3">
 
 	</div>
 
@@ -71,7 +69,7 @@
 
 	<div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 text-right">
 
-		<img src="{{ URL::asset('assets/images/seccion_tres/responsive_icon.png') }}" class="icono_diseno_adaptativo pull-right" alt="Diseño adaptativo">
+		<img src="{{ URL::asset('assets/images/seccion_tres/responsive_icon.png') }}" class="icono_habilidad pull-right" alt="Diseño adaptativo">
 
 	</div>
 
@@ -91,7 +89,7 @@
 
 	<div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 text-right">
 
-		<img src="{{ URL::asset('assets/images/seccion_tres/bootstrap_icon.png') }}" class="icono_bootstrap pull-right" alt="Diseño adaptativo">
+		<img src="{{ URL::asset('assets/images/seccion_tres/bootstrap_icon.png') }}" class="icono_habilidad pull-right" alt="Bootstrap">
 
 	</div>
 
@@ -115,7 +113,7 @@
 
 	<div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 text-right">
 
-		<img src="{{ URL::asset('assets/images/seccion_tres/responsive_icon.png') }}" class="icono_diseno_adaptativo pull-right" alt="Diseño adaptativo">
+		<img src="{{ URL::asset('assets/images/seccion_tres/javascript_icon.png') }}" class="icono_habilidad pull-right" alt="Javascript">
 
 	</div>
 
@@ -135,7 +133,7 @@
 
 	<div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 text-right">
 
-		<img src="{{ URL::asset('assets/images/seccion_tres/bootstrap_icon.png') }}" class="icono_bootstrap pull-right" alt="Diseño adaptativo">
+		<img src="{{ URL::asset('assets/images/seccion_tres/angularjs_icon.png') }}" class="icono_habilidad pull-right" alt="AngularJS">
 
 	</div>
 
@@ -148,6 +146,50 @@
 		<div class="progress barra_progreso">
 			<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
 				<span class="sr-only">60% Complete</span>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+<div class="row separacion_habilidades">
+
+	<div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 text-right">
+
+		<img src="{{ URL::asset('assets/images/seccion_tres/php_icon.png') }}" class="icono_habilidad pull-right" alt="PHP">
+
+	</div>
+
+	<div class="col-xs-10 col-sm-5 col-md-5 col-lg-5">
+			
+		<p class="habilidades">
+			PHP
+		</p>
+
+		<div class="progress barra_progreso">
+			<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+				<span class="sr-only">90% Complete</span>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 text-right">
+
+		<img src="{{ URL::asset('assets/images/seccion_tres/laravel_icon.png') }}" class="icono_habilidad pull-right" alt="Laravel">
+
+	</div>
+
+	<div class="col-xs-10 col-sm-5 col-md-5 col-lg-5">
+			
+		<p class="habilidades">
+			LARAVEL
+		</p>
+
+		<div class="progress barra_progreso">
+			<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+				<span class="sr-only">80% Complete</span>
 			</div>
 		</div>
 
