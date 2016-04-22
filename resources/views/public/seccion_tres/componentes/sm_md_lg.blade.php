@@ -124,8 +124,8 @@
 		</p>
 
 		<div class="progress barra_progreso">
-			<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-				<span class="sr-only">75% Complete</span>
+			<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+				<span class="sr-only">85% Complete</span>
 			</div>
 		</div>
 
@@ -144,8 +144,8 @@
 		</p>
 
 		<div class="progress barra_progreso">
-			<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-				<span class="sr-only">60% Complete</span>
+			<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+				<span class="sr-only">75% Complete</span>
 			</div>
 		</div>
 
