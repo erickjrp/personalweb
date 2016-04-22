@@ -10,7 +10,7 @@
 
 </div>
 
-<div class="row hidden-xs">
+<div class="row">
 
 	<div class="col-xs-12">
 		
@@ -23,7 +23,7 @@
 
 <div class="row separacion_fila">
 
-	<div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0 col-md-3 col-lg-3">
+	<div class="hidden-xs col-xs-offset-3 col-sm-4 col-sm-offset-0 col-md-3 col-lg-3">
 		
 		<img src="{{ URL::asset('assets/images/seccion_uno/1.jpg') }}" class="img-responsive img-rounded center-block imagen_sobre_mi" alt="Erick Ramírez">
 
