@@ -21,7 +21,10 @@
 
 </div>
 
-<div class="row separacion_fila">
+<div class="hidden-xs">
+@include('public.seccion_cuatro.componentes.sm_md_lg')
+</div>
 
-
+<div class="hidden-sm hidden-md hidden-lg">
+@include('public.seccion_cuatro.componentes.xs')
 </div>

@@ -16,10 +16,16 @@
 	.titulo_seccion{
 		font-size: 40px;
 	}
+	.separacion_fila{
+		margin-top: 35px;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.titulo_seccion{
 		font-size: 30px;
+	}
+	.separacion_fila{
+		margin-top: 25px;
 	}
 }
 @media (max-width: 768px){
@@ -176,3 +182,9 @@
 	}
 }
 /*Finaliza sección tres*/
+/*Sección cuatro*/
+.separacion_portafolio{
+	margin-top: 20px;
+}
+
+/*Finaliza sección cuatro*/

@@ -1,26 +1,3 @@
-<div class="row">
-
-	<div class="col-xs-12">
-		
-		<p class="titulo_seccion text-center">
-			Habilidades
-		</p>
-
-	</div>
-
-</div>
-
-<div class="row">
-
-	<div class="col-xs-12">
-		
-		<div class="raya_divisora center-block">
-		</div>
-
-	</div>
-
-</div>
-
 <div class="row fila_habilidades_xs">
 
 	<div class="col-xs-12">

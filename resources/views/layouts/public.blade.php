@@ -13,9 +13,13 @@
   <link href="{{ URL::asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
   <!-- Font Awesome -->
   <link href="{{ URL::asset('assets/css/font-awesome.min.css') }}" rel="stylesheet">
-  <!--Full page-->
+  <!-- Full page -->
   <link href="{{ URL::asset('assets/fullpage/jquery.fullPage.css') }}" rel="stylesheet">
-  <!--Estilos propios-->
+  <!-- Fullscreen modal -->
+  <link href="{{ URL::asset('assets/css/fullscreen_modal.css') }}" rel="stylesheet">
+  <!-- Hover Effect -->
+  <link href="{{ URL::asset('assets/css/hovereffect.css') }}" rel="stylesheet">
+  <!-- Estilos propios -->
   <link href="{{ URL::asset('assets/css/styles.css') }}" rel="stylesheet">
 </head>
 <body>
@@ -64,13 +68,17 @@
 
   </div>
 
+  @include('public.seccion_cuatro.componentes.modales')
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="{{ URL::asset('assets/js/bootstrap.min.js') }}"></script>
-  <!--Full page-->
+  <!-- Full page -->
   <script type="text/javascript" src="{{ URL::asset('assets/fullpage/jquery.fullPage.js') }}"></script>
-  <!--Javascript propio-->
+  <!-- Fullscreen modal -->
+  <script type="text/javascript" src="{{ URL::asset('assets/js/fullscreen_modal.js') }}"></script>
+  <!-- Javascript propio -->
   <script type="text/javascript" src="{{ URL::asset('assets/js/javascript.js') }}"></script>
   
 </body>
