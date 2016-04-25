@@ -1,4 +1,4 @@
-<div class="row fila_habilidades_xs">
+<div class="row separacion_fila fila_habilidades_xs">
 
 	<div class="col-xs-12">
 

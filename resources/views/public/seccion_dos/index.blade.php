@@ -41,9 +41,9 @@
 
 </div>
 
-<div class="row separacion_intereses hidden-xs hidden-sm">
+<div class="row separacion_intereses hidden-xs">
 
-	<div class="col-md-4 col-lg-4">
+	<div class="col-sm-4 col-md-4 col-lg-4">
 		
 		<p class="titulo_intereses">
 			<i class="fa fa-music fa-fw" aria-hidden="true"></i>
@@ -55,7 +55,7 @@
 
 	</div>
 
-	<div class="col-md-4 col-lg-4">
+	<div class="col-sm-4 col-md-4 col-lg-4">
 		
 		<p class="titulo_intereses">
 			<i class="fa fa-futbol-o fa-fw" aria-hidden="true"></i>
@@ -67,7 +67,7 @@
 
 	</div>
 
-	<div class="col-md-4 col-lg-4">
+	<div class="col-sm-4 col-md-4 col-lg-4">
 		
 		<p class="titulo_intereses">
 			<i class="fa fa-graduation-cap fa-fw" aria-hidden="true"></i>

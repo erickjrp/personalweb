@@ -1,4 +1,7 @@
 /*Para todas las secciones*/
+h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
+	font-family: 'Open Sans', sans-serif;
+}
 .raya_divisora{
 	background-color: #3498db;
 	height: 2px;
@@ -8,7 +11,6 @@
 	margin-top: 50px;
 }
 .titulo_seccion{
-	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
 	font-size: 50px;
 }
@@ -39,7 +41,7 @@
 /*Finaliza para todas las secciones*/
 /*Sección uno*/
 .seccion_uno{
-	background-image: url('../images/seccion_uno/fondo.jpg');
+	background-image: url('../images/seccion_uno/fondo_blur.jpg');
 	background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -47,7 +49,6 @@
 	width: 250px;
 }
 .nombre{
-	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
 	font-weight: 300;
 	color: white;
@@ -59,7 +60,6 @@
 	width: 500px;
 }
 .segundo_texto{
-	font-family: 'Open Sans', sans-serif;
 	color: white;
 	font-size: 30px;
 }
@@ -94,18 +94,15 @@
 /*Finaliza sección uno*/
 /*Sección dos*/
 .texto_sobre_mi{
-	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 }
 .separacion_intereses{
-	margin-top: 50px;
+	margin-top: 25px;
 }
 .titulo_intereses{
-	font-family: 'Open Sans', sans-serif;
 	font-size: 25px;
 }
 .texto_intereses{
-	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 }
 @media (min-width: 992px) and (max-width: 1199px){
@@ -115,6 +112,9 @@
 	.titulo_sobre_mi{
 		font-size: 40px;
 	}
+	.separacion_intereses{
+		margin-top: 10px;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.texto_sobre_mi{
@@ -122,6 +122,12 @@
 	}
 	.titulo_sobre_mi{
 		font-size: 30px;
+	}
+	.titulo_intereses{
+		font-size: 20px;
+	}
+	.texto_intereses{
+		font-size: 14px;
 	}
 }
 @media (max-width: 768px){
@@ -146,13 +152,15 @@
 	background: rgba(77, 87, 99, 0.13);
 }
 .habilidades{
-	font-family: 'Open Sans', sans-serif;
 	font-size: 25px;
 }
 .separacion_habilidades{
 	margin-top: 30px;
 }
 @media (min-width: 992px) and (max-width: 1199px){
+	.separacion_habilidades{
+		margin-top: 10px;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.habilidades{
@@ -163,7 +171,7 @@
 		margin-top: 19px;
 	}
 	.separacion_habilidades{
-		margin-top: 15px;
+		margin-top: 10px;
 	}
 }
 @media (max-width: 768px){
@@ -178,7 +186,7 @@
 		margin-top: 0px;
 	}
 	.fila_habilidades_xs{
-		margin-top: 20px;
+		margin-top: 15px;
 	}
 }
 /*Finaliza sección tres*/
@@ -186,5 +194,48 @@
 .separacion_portafolio{
 	margin-top: 20px;
 }
-
+.modal-header{
+	border-bottom:none !important;
+	padding: 0px;
+	padding-right: 8px;
+}
+.close{
+	font-size: 100px !important;
+	font-weight: 100;
+}
+.close:focus{
+	outline: none;
+}
+.modal-footer{
+	border-top: none;
+	text-align: center;
+}
+.fila_imagen_modal{
+	margin-top: 25px;
+}
+.texto_modal_portafolio{
+	font-size: 17px;
+	text-align: justify;
+	margin-top: 25px;
+	line-height: 25px;
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.thumbnail{
+		margin-bottom: 10px !important;
+	}
+	.separacion_portafolio{
+		margin-top: 5px;
+	}
+}
+@media (max-width: 768px){
+	.thumbnail{
+		margin-bottom: 10px !important;
+	}
+	.separacion_fila_portafolio_xs{
+		margin-top: 15px;
+	}
+	.thumbnail-portafolio_xs{
+		width: 274px;
+	}
+}
 /*Finaliza sección cuatro*/
