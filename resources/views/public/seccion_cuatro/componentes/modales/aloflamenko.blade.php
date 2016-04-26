@@ -105,7 +105,7 @@
       <div class="modal-footer text-center">
         <a class="btn btn-primary" href="http://aloflamenko.com/" role="button" target="_blank">
           <i class="fa fa-link fa-fw" aria-hidden="true"></i>
-          Visitar sitio web
+          Visitar
         </a>
         <button type="button" class="btn btn-default" data-dismiss="modal">
           <i class="fa fa-times fa-fw" aria-hidden="true"></i>

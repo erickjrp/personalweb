@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 		margin-top: 25px;
 	}
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
 	.titulo_seccion{
 		font-size: 30px;
 	}
@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 		font-size: 25px;
 	}
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
 	.nombre{
 		font-size: 40px;
 	}
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 		font-size: 14px;
 	}
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
 	.texto_sobre_mi{
 		margin-top: 15px;
 		font-size: 14px;
@@ -143,6 +143,7 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 /*Sección tres*/
 .seccion_tres{
 	background-color: #f7f7f7;
+	/*background-color: #ededed;*/
 }
 .icono_habilidad{
 	width: 33px;
@@ -174,7 +175,7 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 		margin-top: 10px;
 	}
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
 	.habilidades{
 		font-size: 15px;
 	}
@@ -227,7 +228,7 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 		margin-top: 5px;
 	}
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
 	.thumbnail{
 		margin-bottom: 10px !important;
 	}
@@ -239,3 +240,49 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 	}
 }
 /*Finaliza sección cuatro*/
+/*Sección cinco*/
+.seccion_cinco{
+	background-color: #f7f7f7;
+	/*background-color: #ededed;*/
+}
+.titulo_timeline{
+	font-size: 25px;
+    font-weight: 400;
+}
+.texto_timeline{
+	font-size: 17px;
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.titulo_timeline{
+		font-size: 25px;
+    	font-weight: 400;
+	}
+	.texto_timeline{
+		font-size: 15px;
+	}
+	.cbp_tmtimeline > li .cbp_tmlabel{
+		padding:0.5em 1em 0.5em 1em !important;
+	}
+	.cbp_tmtimeline > li .cbp_tmlabel > .titulo_timeline { 
+		padding-bottom: 6px !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.titulo_timeline{
+		font-size: 20px;
+    	font-weight: 400;
+	}
+	.texto_timeline{
+		font-size: 15px;
+	}
+	.cbp_tmtimeline > li .cbp_tmlabel{
+		padding:0.5em 1em 0.5em 1em !important;
+	}
+	.cbp_tmtimeline > li .cbp_tmlabel > .titulo_timeline { 
+		padding-bottom: 7px !important;
+	}
+}
+@media (max-width: 767px){
+}
+/*Finaliza sección cinco*/
+

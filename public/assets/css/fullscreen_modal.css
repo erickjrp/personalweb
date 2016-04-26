@@ -16,6 +16,9 @@
   opacity: .97;
   filter: alpha(opacity=97);
 }
+.modal-fullscreen{
+  padding-right: 17px;
+}
 
 /* .modal-fullscreen size: we use Bootstrap media query breakpoints */
 
@@ -27,16 +30,16 @@
 }
 @media (min-width: 768px) {
   .modal-fullscreen .modal-dialog {
-    width: 750px;
+    width: 719px;
   }
 }
 @media (min-width: 992px) {
   .modal-fullscreen .modal-dialog {
-    width: 970px;
+    width: 929px;
   }
 }
 @media (min-width: 1200px) {
   .modal-fullscreen .modal-dialog {
-     width: 1170px;
+     width: 1149px;
   }
 }

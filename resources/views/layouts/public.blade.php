@@ -21,6 +21,8 @@
   <link href="{{ URL::asset('assets/css/hovereffect.css') }}" rel="stylesheet">
   <!-- Estilos propios -->
   <link href="{{ URL::asset('assets/css/styles.css') }}" rel="stylesheet">
+  <!-- Timeline -->
+  <link href="{{ URL::asset('assets/css/component.css') }}" rel="stylesheet">
 </head>
 <body>
 
@@ -66,9 +68,33 @@
 
     </div>
 
+    <div class="section seccion_cinco">
+
+      <div class="container">
+
+        @include('public.seccion_cinco.index')
+
+      </div>
+
+    </div>
+
   </div>
 
-  @include('public.seccion_cuatro.componentes.modales')
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-xs-12">
+
+        @include('public.seccion_cuatro.componentes.modales')
+
+      </div>
+
+    </div>
+
+  </div>
+
+  
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
@@ -80,6 +106,8 @@
   <script type="text/javascript" src="{{ URL::asset('assets/js/fullscreen_modal.js') }}"></script>
   <!-- Javascript propio -->
   <script type="text/javascript" src="{{ URL::asset('assets/js/javascript.js') }}"></script>
+  <!-- Timeline -->
+  <script type="text/javascript" src="{{ URL::asset('assets/js/modernizr.custom.js') }}"></script>
   
 </body>
 </html>
