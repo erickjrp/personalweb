@@ -26,7 +26,7 @@
 </head>
 <body>
 
-<div id="header" class="visible-lg-block">Header</div>
+  @include('layouts.public_components.header')
 
   <div id="fullpage">
 

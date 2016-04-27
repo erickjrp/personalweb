@@ -14,20 +14,45 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 	font-style: italic;
 	font-size: 50px;
 }
+/*Encabezado*/
 #header{
 	position:fixed;
-	height: 50px;
+	height: 40px;
 	display:block;
 	width: 100%;
-	background: #333;
+	/*background: #333;*/
+	background: rgba(255,255,255, 1);
 	z-index:9;
 	text-align:center;
-	color: #f2f2f2;
-	padding: 20px 0 0 0;
+	/*color: #f2f2f2;*/
+	padding: 0 0 0 0;
 }
 #header{
 	top:0px;
 }
+.nav-center {  
+	text-align: center;
+} 
+ul.nav {
+	display: inline-block;
+}  
+ul.nav > li{
+	display: inline
+}
+ul.nav > li.active > a{
+	color: #3498db !important;
+	background-color: white !important;
+}
+ul.nav > li > a{
+	float: left;
+	color: #777 !important;
+	font-weight: bold;
+}
+ul.nav > li > a:hover, ul.nav > li > a:focus{
+	color: #3498db !important;
+	background-color: white !important;
+}
+/*Finaliza encabezado*/
 @media (min-width: 992px) and (max-width: 1199px){
 	.titulo_seccion{
 		font-size: 40px;
