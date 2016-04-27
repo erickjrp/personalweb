@@ -14,6 +14,20 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 	font-style: italic;
 	font-size: 50px;
 }
+#header{
+	position:fixed;
+	height: 50px;
+	display:block;
+	width: 100%;
+	background: #333;
+	z-index:9;
+	text-align:center;
+	color: #f2f2f2;
+	padding: 20px 0 0 0;
+}
+#header{
+	top:0px;
+}
 @media (min-width: 992px) and (max-width: 1199px){
 	.titulo_seccion{
 		font-size: 40px;
@@ -32,7 +46,7 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 }
 @media (max-width: 767px){
 	.titulo_seccion{
-		font-size: 30px;
+		font-size: 27px;
 	}
 	.separacion_fila{
 		margin-top: 0px;
@@ -283,6 +297,22 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 	}
 }
 @media (max-width: 767px){
+	.timeline_xs{
+		margin-top: 15px;
+	}
 }
 /*Finaliza sección cinco*/
-
+/*Sección seis*/
+.seccion_seis{
+	background-color: #3498db;
+	color: #fff;
+}
+.raya_divisora_blanca{
+	background-color: #fff;
+	height: 2px;
+	width: 100px;
+}
+.contacto_fila_xs{
+	margin-top: 15px;
+}
+/*Finaliza sección seis*/

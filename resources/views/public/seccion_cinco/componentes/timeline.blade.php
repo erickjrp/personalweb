@@ -35,8 +35,9 @@
 		</div>
 		<div class="cbp_tmlabel">
 			<p class="titulo_timeline">Freelancer</p>
-			<p class="texto_timeline">Aunque siempre me he dedicado a realizar proyectos de manera independiente, formalmente decidí
-			avocar todo mi tiempo a este método de formación continua.</p>
+			<p class="texto_timeline">
+				Aunque siempre me he dedicado a realizar proyectos de manera independiente, formalmente decidí avocar todo mi tiempo a este método de formación continua.
+			</p>
 		</div>
 	</li>
 </ul>

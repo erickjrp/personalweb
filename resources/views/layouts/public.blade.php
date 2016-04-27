@@ -26,6 +26,8 @@
 </head>
 <body>
 
+<div id="header" class="visible-lg-block">Header</div>
+
   <div id="fullpage">
 
     <div class="section seccion_uno">
@@ -73,6 +75,26 @@
       <div class="container">
 
         @include('public.seccion_cinco.index')
+
+      </div>
+
+    </div>
+
+    <div class="section seccion_seis">
+
+      <div class="container">
+
+        @include('public.seccion_seis.index')
+
+      </div>
+
+    </div>
+
+    <div class="section fp-auto-height">
+
+      <div class="container">
+
+        @include('public.seccion_siete.index')
 
       </div>
 
