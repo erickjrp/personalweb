@@ -53,6 +53,9 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+.espaciado_footer > div > div > a:hover, .espaciado_footer > div > div > a:focus{
+	text-decoration: none;
+}
 .derechos_reservados{
 	margin-top: 20px;
 }
