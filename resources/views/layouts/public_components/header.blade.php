@@ -5,38 +5,38 @@
 		<div class="col-lg-12 nav-center">
 
 			<ul class="nav nav-pills">
-				<li role="presentation" class="active">
-					<a href="#Inicio" id="1_header">
+				<li role="presentation" class="active" id="1_header">
+					<a href="#Inicio">
 						Inicio
 					</a>
 				</li>
-				<li role="presentation">
-					<a href="#Sobre_mi" id="2_header">
+				<li role="presentation" id="2_header">
+					<a href="#Sobre_mi">
 						Sobre mí
 					</a>
 				</li>
-				<li role="presentation">
-					<a href="#Habilidades" id="3_header">
+				<li role="presentation" id="3_header">
+					<a href="#Habilidades">
 						Habilidades
 					</a>
 				</li>
-				<li role="presentation">
-					<a href="#Portafolio" id="4_header">
+				<li role="presentation" id="4_header">
+					<a href="#Portafolio">
 						Portafolio
 					</a>
 				</li>
-				<li role="presentation">
-					<a href="#Educacion_y_experiencia" id="5_header">
+				<li role="presentation" id="5_header">
+					<a href="#Educacion_y_experiencia">
 						Educación y experiencia
 					</a>
 				</li>
-				<li role="presentation">
-					<a href="#Contacto" id="6_header">
+				<li role="presentation" id="6_header">
+					<a href="#Contacto">
 						Contacto
 					</a>
 				</li>
-				<li role="presentation">
-					<a href="#Redes_sociales" id="7_header">
+				<li role="presentation" id="7_header">
+					<a href="#Redes_sociales">
 						Redes
 					</a>
 				</li>

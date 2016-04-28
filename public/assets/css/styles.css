@@ -20,12 +20,9 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 	height: 40px;
 	display:block;
 	width: 100%;
-	/*background: #333;*/
 	background: rgba(255,255,255, 1);
 	z-index:9;
 	text-align:center;
-	/*color: #f2f2f2;*/
-	padding: 0 0 0 0;
 }
 #header{
 	top:0px;
@@ -51,6 +48,13 @@ ul.nav > li > a{
 ul.nav > li > a:hover, ul.nav > li > a:focus{
 	color: #3498db !important;
 	background-color: white !important;
+}
+.espaciado_footer{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.derechos_reservados{
+	margin-top: 20px;
 }
 /*Finaliza encabezado*/
 @media (min-width: 992px) and (max-width: 1199px){
