@@ -27,6 +27,27 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 	background-color: #fff;
 	color: #3499DB;
 }
+.btn-primary{
+	background-color: #3499DB;
+	border-color: #3499DB;
+}
+.btn-primary:hover{
+	background-color: #0F85D1;
+	border-color: #0F85D1;
+}
+.btn-primary:active, .btn-primary:focus{
+	background-color: #0665A2;
+	border-color: #0665A2;
+}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #0665A2;
+	border-color: #0665A2;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+    outline: none;
+}
 /*Encabezado*/
 #header{
 	position:fixed;

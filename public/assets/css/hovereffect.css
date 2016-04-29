@@ -60,6 +60,10 @@ padding:7px 14px;
 box-shadow:0 0 5px #fff;
 }
 
+.hovereffect a.info:focus {
+    outline: none;
+}
+
 .hovereffect:hover img {
 -ms-transform:scale(1.2);
 -webkit-transform:scale(1.2);
