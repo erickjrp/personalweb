@@ -3,7 +3,7 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 	font-family: 'Open Sans', sans-serif;
 }
 .raya_divisora{
-	background-color: #3498db;
+	background-color: #3499DB;
 	height: 2px;
 	width: 100px;
 }
@@ -13,6 +13,19 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 .titulo_seccion{
 	font-style: italic;
 	font-size: 50px;
+}
+.btn-transparent, .btn-transparent:focus{
+	background-color: transparent;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 2px;
+	color: #fff;
+	-webkit-transition: .3s;
+    transition: .3s;
+}
+.btn-transparent:hover{
+	background-color: #fff;
+	color: #3499DB;
 }
 /*Encabezado*/
 #header{
@@ -37,7 +50,7 @@ ul.nav > li{
 	display: inline
 }
 ul.nav > li.active > a{
-	color: #3498db !important;
+	color: #3499DB !important;
 	background-color: white !important;
 }
 ul.nav > li > a{
@@ -46,18 +59,8 @@ ul.nav > li > a{
 	font-weight: bold;
 }
 ul.nav > li > a:hover, ul.nav > li > a:focus{
-	color: #3498db !important;
+	color: #3499DB !important;
 	background-color: white !important;
-}
-.espaciado_footer{
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-.espaciado_footer > div > div > a:hover, .espaciado_footer > div > div > a:focus{
-	text-decoration: none;
-}
-.derechos_reservados{
-	margin-top: 20px;
 }
 /*Finaliza encabezado*/
 @media (min-width: 992px) and (max-width: 1199px){
@@ -109,6 +112,47 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 	color: white;
 	font-size: 30px;
 }
+.fila_botones_inicio{
+	margin-top: 15px;
+}
+.fila_division{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+/*linea-icono-linea*/
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #fff; 
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 2px;
+    background: #fff;
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+/*Finaliza linea-icono-linea*/
 @media (min-width: 992px) and (max-width: 1199px){
 
 }
@@ -135,6 +179,10 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 	}
 	.imagen_perfil{
 		width: 200px;
+	}
+	.fila_division{
+		margin-top: 5px;
+		margin-bottom: 0px;
 	}
 }
 /*Finaliza sección uno*/
@@ -189,7 +237,6 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 /*Sección tres*/
 .seccion_tres{
 	background-color: #f7f7f7;
-	/*background-color: #ededed;*/
 }
 .icono_habilidad{
 	width: 33px;
@@ -202,6 +249,17 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 	font-size: 25px;
 }
 .separacion_habilidades{
+	margin-top: 30px;
+}
+.progress-bar-blue{
+	background-color: #3499DB;
+}
+.progress-bar-green{
+	background-color: #2BE189;
+}
+.alert-blue{
+	background-color: #3499DB;
+	color: #fff;
 	margin-top: 30px;
 }
 @media (min-width: 992px) and (max-width: 1199px){
@@ -234,6 +292,9 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 	}
 	.fila_habilidades_xs{
 		margin-top: 15px;
+	}
+	.alert-blue{
+		margin-top: 10px;
 	}
 }
 /*Finaliza sección tres*/
@@ -336,7 +397,7 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 /*Finaliza sección cinco*/
 /*Sección seis*/
 .seccion_seis{
-	background-color: #3498db;
+	background-color: #3499DB;
 	color: #fff;
 }
 .raya_divisora_blanca{
@@ -344,7 +405,22 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 	height: 2px;
 	width: 100px;
 }
-.contacto_fila_xs{
-	margin-top: 15px;
+@media (max-width: 767px){
+	.contacto_fila_xs{
+		margin-top: 15px;
+	}
 }
+
 /*Finaliza sección seis*/
+/*Sección siete*/
+.espaciado_footer{
+	margin-top: 50px;
+	margin-bottom: 44px;
+}
+.espaciado_footer > div > div > a:hover, .espaciado_footer > div > div > a:focus{
+	text-decoration: none;
+}
+.derechos_reservados{
+	margin-top: 20px;
+}
+/*Finaliza sección siete*/

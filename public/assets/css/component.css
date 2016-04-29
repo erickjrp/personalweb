@@ -23,7 +23,8 @@
 	top: 0;
 	bottom: 0;
 	width: 10px;
-	background: #afdcf8;
+	/*background: #afdcf8;*/
+	background: #85C4ED;
 	left: 20%;
 	margin-left: -10px;
 }
@@ -52,17 +53,17 @@
 
 .cbp_tmtimeline > li .cbp_tmtime span:last-child {
 	font-size: 2.2em;
-	color: #3594cb;
+	color: #3499DB;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
-	color: #6cbfee;
+	color: #85C4ED;
 }
 
 /* Right content */
 .cbp_tmtimeline > li .cbp_tmlabel {
 	margin: 0 0 15px 25%;
-	background: #3594cb;
+	background: #3499DB;
 	color: #fff;
 	padding: 1em;
 	font-size: 1em;
@@ -73,7 +74,8 @@
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
-	background: #6cbfee;
+	/*background: #6cbfee;*/
+	background: #85C4ED;
 }
 
 .cbp_tmtimeline > li .cbp_tmlabel > .titulo_timeline { 
@@ -115,9 +117,9 @@
 	-webkit-font-smoothing: antialiased;
 	position: absolute;
 	color: #fff;
-	background: #46a4da;
+	background: #3499DB;
 	border-radius: 50%;
-	box-shadow: 0 0 0 8px #afdcf8;
+	box-shadow: 0 0 0 8px #85C4ED;
 	text-align: center;
 	left: 20%;
 	top: 0;
