@@ -48,6 +48,20 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
     outline: none;
     outline: none;
 }
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover{
+	border-color: #3499DB;
+}
+.panel-blue>.panel-heading{
+	background-color: #3499DB;
+	color: #fff;
+}
+.panel-blue-light>.panel-heading{
+	background-color: #85C4ED;
+	color: #fff;
+}
+.panel > div > h4 > a:focus, .panel > div > h4 > a:hover{
+	text-decoration: none;
+}
 /*Encabezado*/
 #header{
 	position:fixed;
@@ -338,6 +352,7 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 .modal-footer{
 	border-top: none;
 	text-align: center;
+	padding-top: 0px;
 }
 .fila_imagen_modal{
 	margin-top: 25px;

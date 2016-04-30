@@ -1,13 +1,13 @@
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
+  <div class="panel panel-blue-light">
+    <div class="panel-heading" role="tab" id="inicios">
       <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseInicios" aria-expanded="true" aria-controls="collapseInicios">
           15/01/12: Inicios
         </a>
       </h4>
     </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+    <div id="collapseInicios" class="panel-collapse collapse" role="tabpanel" aria-labelledby="inicios">
       <div class="panel-body text-justify">
         - Desarrollador y diseñador web en la empresa de venta de artículos electrónicos Seven Tech.
 		<br />
@@ -17,29 +17,29 @@
       </div>
     </div>
   </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
+  <div class="panel panel-blue">
+    <div class="panel-heading" role="tab" id="licenciado">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseLicenciado" aria-expanded="false" aria-controls="collapseLicenciado">
           03/07/15: Lic. en Computación
         </a>
       </h4>
     </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+    <div id="collapseLicenciado" class="panel-collapse collapse" role="tabpanel" aria-labelledby="licenciado">
       <div class="panel-body text-justify">
         Obtuve el título de Licenciado en Computación en la Universidad Central de Venezuela con Mención Honorífica por mi Trabajo Especial De Grado.
       </div>
     </div>
   </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
+  <div class="panel panel-blue-light">
+    <div class="panel-heading" role="tab" id="freelancer">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFreelancer" aria-expanded="false" aria-controls="collapseFreelancer">
           01/01/16: Freelancer
         </a>
       </h4>
     </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+    <div id="collapseFreelancer" class="panel-collapse collapse" role="tabpanel" aria-labelledby="freelancer">
       <div class="panel-body text-justify">
         Aunque siempre me he dedicado a realizar proyectos de manera independiente, formalmente decidí avocar todo mi tiempo a este método de formación continua.
       </div>

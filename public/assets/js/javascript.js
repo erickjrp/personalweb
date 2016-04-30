@@ -4,6 +4,8 @@ $(document).ready(function() {
 
 		anchors:['Inicio', 'Sobre_mi', 'Habilidades', 'Portafolio', 'Educacion_y_experiencia', 'Contacto', 'Redes_sociales'],
 
+		normalScrollElements: '#adhara, #aloflamenko, #cienciasucv, #logoman, #telasymetales, #travelconsultores',
+
 		onLeave: function(index, nextIndex, direction){
 			
             var leavingSection = $(this);
