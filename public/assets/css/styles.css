@@ -62,6 +62,12 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover{
 .panel > div > h4 > a:focus, .panel > div > h4 > a:hover{
 	text-decoration: none;
 }
+.alert-verde{
+	background-color: #2BE189;
+	color: #fff;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
 /*Encabezado*/
 #header{
 	position:fixed;
@@ -342,12 +348,17 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 	padding: 0px;
 	padding-right: 8px;
 }
-.close{
+.close_modal{
 	font-size: 100px !important;
 	font-weight: 100;
 }
-.close:focus{
+.close_modal:focus{
 	outline: none;
+}
+.close-green-alert{
+    color: #fff;
+    opacity: 1;
+    background-color: transparent;
 }
 .modal-footer{
 	border-top: none;

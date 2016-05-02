@@ -21,17 +21,21 @@
 
 </div>
 
-<div class="row separacion_fila timeline_xs">
+<div id="seccion_5">
 
-	<div class="hidden-xs col-sm-12">
-		
-		@include('public.seccion_cinco.componentes.timeline')
+	<div class="row separacion_fila timeline_xs">
 
-	</div>
+		<div class="hidden-xs col-sm-12">
+			
+			@include('public.seccion_cinco.componentes.timeline')
 
-	<div class="col-xs-12 visible-xs-block">
-		
-		@include('public.seccion_cinco.componentes.xs')
+		</div>
+
+		<div class="col-xs-12 visible-xs-block">
+			
+			@include('public.seccion_cinco.componentes.xs')
+
+		</div>
 
 	</div>
 
