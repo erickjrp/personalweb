@@ -1,4 +1,4 @@
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="panel-group acordeon" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-blue-light">
     <div class="panel-heading" role="tab" id="inicios">
       <h4 class="panel-title">

@@ -27,7 +27,7 @@
 
 		<div class="hidden-xs col-xs-offset-3 col-sm-4 col-sm-offset-0 col-md-3 col-lg-3">
 			
-			<img src="{{ URL::asset('assets/images/seccion_uno/1.jpg') }}" class="img-responsive img-rounded center-block imagen_sobre_mi" alt="Erick Ramírez">
+			<img src="{{ URL::asset('assets/images/seccion_dos/sobre_mi.jpg') }}" class="img-responsive img-rounded center-block imagen_sobre_mi" alt="Erick Ramírez">
 
 		</div>
 

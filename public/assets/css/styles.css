@@ -210,20 +210,23 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 }
 @media (max-width: 767px){
 	.nombre{
-		font-size: 40px;
+		font-size: 35px;
 	}
 	.separador{
 		width: 340px;
 	}
 	.segundo_texto{
-		font-size: 20px;
+		font-size: 16px;
 	}
 	.imagen_perfil{
-		width: 200px;
+		width: 190px;
 	}
 	.fila_division{
 		margin-top: 5px;
 		margin-bottom: 0px;
+	}
+	.alert-verde{
+		margin-bottom: 10px;
 	}
 }
 /*Finaliza sección uno*/
@@ -336,6 +339,7 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 	}
 	.alert-blue{
 		margin-top: 10px;
+		margin-bottom: 5px;
 	}
 }
 /*Finaliza sección tres*/
@@ -392,6 +396,9 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 	.thumbnail-portafolio_xs{
 		width: 274px;
 	}
+	.separacion_portafolio{
+		margin-top: 0px;
+	}
 }
 /*Finaliza sección cuatro*/
 /*Sección cinco*/
@@ -439,6 +446,9 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 @media (max-width: 767px){
 	.timeline_xs{
 		margin-top: 15px;
+	}
+	.acordeon{
+		margin-bottom: 10px;
 	}
 }
 /*Finaliza sección cinco*/
