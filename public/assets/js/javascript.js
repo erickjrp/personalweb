@@ -3,10 +3,6 @@ var seccion = 'seccion_';
 
 $(document).ready(function() {
 
-	/*Para desaparecer la alerta de envío de correo*/
-	//$(".alert-verde").fadeOut(10000);
-	/*Finaliza para desaparecer la alerta de envío de correo*/
-
 	/*Para que todo desaparezca*/
 	$("#seccion_2").fadeTo(0, 0);
 	$("#seccion_3").fadeTo(0, 0);

@@ -1,4 +1,54 @@
 /*Para todas las secciones*/
+/*Media queries verticales*/
+@media (min-width: 1200px) and (max-height: 767px){
+	#validar_pantalla{
+		display: none;
+	}
+	#mensaje_importante{
+		display: block;
+	}
+}
+@media (min-width: 768px) and (max-width: 1199px) and (max-height: 599px){
+	#validar_pantalla{
+		display: none;
+	}
+	#mensaje_importante{
+		display: block;
+	}
+}
+@media (max-width: 767px) and (max-height: 449px){
+	#validar_pantalla{
+		display: none;
+	}
+	#mensaje_importante{
+		display: block;
+	}
+}
+@media (min-width: 1200px) and (min-height: 768px){
+	#validar_pantalla{
+		display: block;
+	}
+	#mensaje_importante{
+		display: none;
+	}
+}
+@media (min-width: 768px) and (max-width: 1199px) and (min-height: 600px){
+	#validar_pantalla{
+		display: block;
+	}
+	#mensaje_importante{
+		display: none;
+	}
+}
+@media (max-width: 767px) and (min-height: 450px){
+	#validar_pantalla{
+		display: block;
+	}
+	#mensaje_importante{
+		display: none;
+	}
+}
+/*Finaliza media queries verticales*/
 h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
 	font-family: 'Open Sans', sans-serif;
 }
@@ -48,7 +98,7 @@ h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
     outline: none;
     outline: none;
 }
-a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover{
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 	border-color: #3499DB;
 }
 .panel-blue>.panel-heading{
@@ -211,6 +261,7 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 @media (max-width: 767px){
 	.nombre{
 		font-size: 35px;
+		margin-top: 0px;
 	}
 	.separador{
 		width: 340px;
@@ -222,7 +273,7 @@ ul.nav > li > a:hover, ul.nav > li > a:focus{
 		width: 190px;
 	}
 	.fila_division{
-		margin-top: 5px;
+		margin-top: 0px;
 		margin-bottom: 0px;
 	}
 	.alert-verde{

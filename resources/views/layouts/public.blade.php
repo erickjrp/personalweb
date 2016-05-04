@@ -27,75 +27,89 @@
 </head>
 <body>
 
-  @include('layouts.public_components.header')
+  <div id="mensaje_importante">
+    
+    <div class="container">
 
-  <div id="fullpage">
-
-    <div class="section seccion_uno">
-
-      <div class="container">
-
-        @include('public.seccion_uno.index')
-        
-      </div>
-
+      @include('public.mensaje_importante')
+          
     </div>
 
-    <div class="section seccion_dos">
+  </div>
 
-      <div class="container">
+  <div id="validar_pantalla">
 
-        @include('public.seccion_dos.index')
+    @include('layouts.public_components.header')
 
-      </div>
+    <div id="fullpage">
 
-    </div>
+      <div class="section seccion_uno">
 
-    <div class="section seccion_tres">
+        <div class="container">
 
-      <div class="container">
-
-        @include('public.seccion_tres.index')
+          @include('public.seccion_uno.index')
+          
+        </div>
 
       </div>
 
-    </div>
+      <div class="section seccion_dos">
 
-    <div class="section seccion_cuatro">
+        <div class="container">
 
-      <div class="container">
+          @include('public.seccion_dos.index')
 
-        @include('public.seccion_cuatro.index')
-
-      </div>
-
-    </div>
-
-    <div class="section seccion_cinco">
-
-      <div class="container">
-
-        @include('public.seccion_cinco.index')
+        </div>
 
       </div>
 
-    </div>
+      <div class="section seccion_tres">
 
-    <div class="section seccion_seis">
+        <div class="container">
 
-      <div class="container">
+          @include('public.seccion_tres.index')
 
-        @include('public.seccion_seis.index')
+        </div>
 
       </div>
 
-    </div>
+      <div class="section seccion_cuatro">
 
-    <div class="section fp-auto-height">
+        <div class="container">
 
-      <div class="container">
+          @include('public.seccion_cuatro.index')
 
-        @include('public.seccion_siete.index')
+        </div>
+
+      </div>
+
+      <div class="section seccion_cinco">
+
+        <div class="container">
+
+          @include('public.seccion_cinco.index')
+
+        </div>
+
+      </div>
+
+      <div class="section seccion_seis">
+
+        <div class="container">
+
+          @include('public.seccion_seis.index')
+
+        </div>
+
+      </div>
+
+      <div class="section fp-auto-height">
+
+        <div class="container">
+
+          @include('public.seccion_siete.index')
+
+        </div>
 
       </div>
 
