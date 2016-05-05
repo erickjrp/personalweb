@@ -45,30 +45,34 @@
                 <li data-target="#carrusel-travelconsultores" data-slide-to="4"></li>
                 <li data-target="#carrusel-travelconsultores" data-slide-to="5"></li>
                 <li data-target="#carrusel-travelconsultores" data-slide-to="6"></li>
+                <li data-target="#carrusel-travelconsultores" data-slide-to="7"></li>
               </ol>
 
               <!-- Wrapper for slides -->
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/1.jpg') }}" class="img-responsive" alt="Travel Consultores">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/2.jpg') }}" class="img-responsive" alt="Travel Consultores">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/3.jpg') }}" class="img-responsive" alt="Travel Consultores">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/4.jpg') }}" class="img-responsive" alt="Travel Consultores">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/5.jpg') }}" class="img-responsive" alt="Travel Consultores">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/6.jpg') }}" class="img-responsive" alt="Travel Consultores">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/7.jpg') }}" class="img-responsive" alt="Travel Consultores">
+                </div>
+                <div class="item">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/8.jpg') }}" class="img-responsive" alt="Travel Consultores">
                 </div>
               </div>
 

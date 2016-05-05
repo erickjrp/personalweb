@@ -44,31 +44,27 @@
                 <li data-target="#carrusel-adhara" data-slide-to="3"></li>
                 <li data-target="#carrusel-adhara" data-slide-to="4"></li>
                 <li data-target="#carrusel-adhara" data-slide-to="5"></li>
-                <li data-target="#carrusel-adhara" data-slide-to="6"></li>
               </ol>
 
               <!-- Wrapper for slides -->
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/adhara/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/adhara/1.jpg') }}" class="img-responsive" alt="Adhara">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/adhara/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/adhara/2.jpg') }}" class="img-responsive" alt="Adhara">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/adhara/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/adhara/3.jpg') }}" class="img-responsive" alt="Adhara">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/adhara/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/adhara/4.jpg') }}" class="img-responsive" alt="Adhara">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/adhara/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/adhara/5.jpg') }}" class="img-responsive" alt="Adhara">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/adhara/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
-                </div>
-                <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/adhara/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/adhara/6.jpg') }}" class="img-responsive" alt="Adhara">
                 </div>
               </div>
 

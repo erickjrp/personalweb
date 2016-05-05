@@ -45,6 +45,7 @@
                 <li data-target="#carrusel-aloflamenko" data-slide-to="4"></li>
                 <li data-target="#carrusel-aloflamenko" data-slide-to="5"></li>
                 <li data-target="#carrusel-aloflamenko" data-slide-to="6"></li>
+                <li data-target="#carrusel-aloflamenko" data-slide-to="7"></li>
               </ol>
 
               <!-- Wrapper for slides -->
@@ -53,22 +54,25 @@
                   <img src="{{ URL::asset('assets/images/seccion_cuatro/aloflamenko/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/aloflamenko/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/aloflamenko/2.jpg') }}" class="img-responsive" alt="A lo Flamenko">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/aloflamenko/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/aloflamenko/3.jpg') }}" class="img-responsive" alt="A lo Flamenko">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/aloflamenko/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/aloflamenko/4.jpg') }}" class="img-responsive" alt="A lo Flamenko">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/aloflamenko/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/aloflamenko/5.jpg') }}" class="img-responsive" alt="A lo Flamenko">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/aloflamenko/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/aloflamenko/6.jpg') }}" class="img-responsive" alt="A lo Flamenko">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/aloflamenko/1.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/aloflamenko/7.jpg') }}" class="img-responsive" alt="A lo Flamenko">
+                </div>
+                <div class="item">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/aloflamenko/8.jpg') }}" class="img-responsive" alt="A lo Flamenko">
                 </div>
               </div>
 

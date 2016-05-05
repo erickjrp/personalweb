@@ -45,6 +45,7 @@
                 <li data-target="#carrusel-cienciasucv" data-slide-to="4"></li>
                 <li data-target="#carrusel-cienciasucv" data-slide-to="5"></li>
                 <li data-target="#carrusel-cienciasucv" data-slide-to="6"></li>
+                <li data-target="#carrusel-cienciasucv" data-slide-to="7"></li>
               </ol>
 
               <!-- Wrapper for slides -->
@@ -69,6 +70,9 @@
                 </div>
                 <div class="item">
                   <img src="{{ URL::asset('assets/images/seccion_cuatro/cienciasucv/7.jpg') }}" class="img-responsive" alt="UCV - Escuela de Computación">
+                </div>
+                <div class="item">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/cienciasucv/8.jpg') }}" class="img-responsive" alt="UCV - Escuela de Computación">
                 </div>
               </div>
 
