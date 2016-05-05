@@ -64,7 +64,7 @@
                   <img src="{{ URL::asset('assets/images/seccion_cuatro/telasymetales/5.jpg') }}" class="img-responsive" alt="Telas y Metales">
                 </div>
                 <div class="item">
-                  <img src="{{ URL::asset('assets/images/seccion_cuatro/telasymetales/9.jpg') }}" class="img-responsive" alt="Telas y Metales">
+                  <img src="{{ URL::asset('assets/images/seccion_cuatro/telasymetales/6.jpg') }}" class="img-responsive" alt="Telas y Metales">
                 </div>
               </div>
 
