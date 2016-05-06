@@ -3,7 +3,9 @@
 	<div class="col-xs-12 text-center">
 
 		<H4>
-			Por favor mantén tu dispositivo móvil en posición vertical para poder ver correctamente el contenido de este sitio
+			Lo siento, la resolución de pantalla actual no permite que el sitio web se visualice correctamente.
+			Por favor ingresa desde un dispositivo con mayor resolución, o posiciona tu móvil o tableta verticalmente
+			si estás usando alguno de estos dispositivos.
 		</H4>
 
 	</div>
