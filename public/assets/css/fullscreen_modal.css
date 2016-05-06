@@ -17,7 +17,7 @@
   filter: alpha(opacity=97);
 }
 .modal-fullscreen{
-  padding-right: 17px;
+  /*padding-right: 17px;*/
 }
 
 /* .modal-fullscreen size: we use Bootstrap media query breakpoints */
