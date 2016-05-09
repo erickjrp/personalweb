@@ -36,6 +36,53 @@
 
 		</div>
 
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4 col-lg-offset-4 col-lg-4 text-center">
+
+				<hr>
+
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-xs-12 text-center">
+
+				{!! Form::open(array('url' => array('/language'), 'method' => 'POST', 'class' => 'form-inline')) !!}
+
+					<div class="form-group">
+
+						<label for="idioma">
+							Idioma:
+						</label>
+
+						<select class="form-control input-sm" id="idioma" name="idioma">
+
+							<option value="en" @if($language == 'en') selected @endif>
+								Inglés
+							</option>
+
+							<option value="es" @if($language == 'es') selected @endif>
+								Español
+							</option>
+
+						</select>
+
+					</div>
+
+					<button type="submit" class="btn btn-default btn-sm">
+						<i class="fa fa-language fa-fw" aria-hidden="true"></i>
+						Seleccionar
+					</button>
+
+				{!! Form::close() !!}
+
+			</div>
+
+		</div>
+
 	</div>
 
 </div>

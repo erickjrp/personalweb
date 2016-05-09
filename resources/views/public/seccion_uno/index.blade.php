@@ -49,7 +49,7 @@
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
 
 		<p class="segundo_texto">
-			Desarrollador web - Diseñador web - Creativo - Innovador
+			{{ trans('seccion_uno.introduccion') }}
 		</p>
 
 	</div>
@@ -63,13 +63,13 @@
 		<a class="btn btn-transparent btn-lg" href="#Sobre_mi" role="button">
 			<span>
 				<i class="fa fa-arrow-down fa-fw" aria-hidden="true"></i>
-				Leer más
+				{{ trans('seccion_uno.boton_leer_mas') }}
 			</span>
 		</a>
 		<a class="btn btn-transparent btn-lg" href="#" role="button">
 			<span>
 				<i class="fa fa-download fa-fw" aria-hidden="true"></i>
-				Currículo
+				{{ trans('seccion_uno.boton_curriculo') }}
 			</span>
 		</a>
 

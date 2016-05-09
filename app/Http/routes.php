@@ -11,7 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.public');
-});
+Route::get('/', 'HomePublicController@index');
 Route::post('/enviarcorreo', 'MailController@index');
+Route::post('/language', 'LanguageController@index');
