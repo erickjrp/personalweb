@@ -86,7 +86,7 @@
           <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
 
             <p class="texto_modal_portafolio">
-              Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata. 
+              {{ trans('seccion_cuatro.logoman') }} 
             </p>
 
           </div>
@@ -97,11 +97,11 @@
       <div class="modal-footer text-center">
         <a class="btn btn-primary" href="#logoman" role="button" target="_blank">
           <i class="fa fa-link fa-fw" aria-hidden="true"></i>
-          Visitar
+          {{ trans('seccion_cuatro.visitar') }}
         </a>
         <button type="button" class="btn btn-default" data-dismiss="modal">
           <i class="fa fa-times fa-fw" aria-hidden="true"></i>
-          Cerrar
+          {{ trans('seccion_cuatro.cerrar') }}
         </button>
       </div>
     </div>

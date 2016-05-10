@@ -2,8 +2,11 @@
 
 	<div class="col-xs-12">
 		
-		<p class="titulo_seccion text-center">
-			Educación y experiencia
+		<p class="titulo_seccion text-center hidden-xs">
+			{{ trans('seccion_cinco.educacion_y_experiencia') }}
+		</p>
+		<p class="titulo_seccion text-center visible-xs-block">
+			{{ trans('seccion_cinco.educacion_y_experiencia_xs') }}
 		</p>
 
 	</div>

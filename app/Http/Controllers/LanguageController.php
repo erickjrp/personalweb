@@ -22,8 +22,8 @@ class LanguageController extends Controller
     	$input = $request->all();
         $language = $input['idioma'];
     	App::setLocale($language);
-        $language = App::getLocale();
-        return view('layouts.public', compact('language'));
+    	session(['idioma' => $language]);
+        return Redirect::to('/');
 
 	}
 

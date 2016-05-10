@@ -7,37 +7,37 @@
 			<ul class="nav nav-pills">
 				<li role="presentation" class="active" id="1_header">
 					<a href="#Inicio">
-						Inicio
+						{{ trans('menu.inicio') }}
 					</a>
 				</li>
 				<li role="presentation" id="2_header">
 					<a href="#Sobre_mi">
-						Sobre mí
+						{{ trans('menu.sobre_mi') }}
 					</a>
 				</li>
 				<li role="presentation" id="3_header">
 					<a href="#Habilidades">
-						Habilidades
+						{{ trans('menu.habilidades') }}
 					</a>
 				</li>
 				<li role="presentation" id="4_header">
 					<a href="#Portafolio">
-						Portafolio
+						{{ trans('menu.portafolio') }}
 					</a>
 				</li>
 				<li role="presentation" id="5_header">
 					<a href="#Educacion_y_experiencia">
-						Educación y experiencia
+						{{ trans('menu.educacion_y_experiencia') }}
 					</a>
 				</li>
 				<li role="presentation" id="6_header">
 					<a href="#Contacto">
-						Contacto
+						{{ trans('menu.contacto') }}
 					</a>
 				</li>
 				<li role="presentation" id="7_header">
 					<a href="#Redes_sociales">
-						Redes
+						{{ trans('menu.redes') }}
 					</a>
 				</li>
 			</ul>

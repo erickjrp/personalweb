@@ -3,7 +3,7 @@
 	<div class="col-xs-12">
 		
 		<p class="titulo_seccion text-center">
-			Portafolio
+			{{ trans('seccion_cuatro.portafolio') }}
 		</p>
 
 	</div>
@@ -30,8 +30,8 @@
 			<div class="hovereffect hidden-xs hidden-sm">
 				<img src="{{ URL::asset('assets/images/seccion_cuatro/telasymetales/1_thumb.jpg') }}" class="img-responsive" alt="Telas y Metales">
 				<div class="overlay">
-					<h2>ba&jo - Telas y Metales</h2>
-					<a class="info" href="#" data-toggle="modal" data-target="#telasymetales">Detalles</a>
+					<h2>ba&jo - {{ trans('seccion_cuatro.telas_y_metales_titulo') }}</h2>
+					<a class="info" href="#" data-toggle="modal" data-target="#telasymetales">{{ trans('seccion_cuatro.detalles') }}</a>
 				</div>
 			</div>
 
@@ -46,8 +46,8 @@
 			<div class="hovereffect hidden-xs hidden-sm">
 				<img src="{{ URL::asset('assets/images/seccion_cuatro/cienciasucv/1_thumb.jpg') }}" class="img-responsive" alt="Proyecto">
 				<div class="overlay">
-					<h2>Escuela de Computación - UCV</h2>
-					<a class="info" href="#" data-toggle="modal" data-target="#cienciasucv">Detalles</a>
+					<h2>UCV - {{ trans('seccion_cuatro.escuela_titulo') }}</h2>
+					<a class="info" href="#" data-toggle="modal" data-target="#cienciasucv">{{ trans('seccion_cuatro.detalles') }}</a>
 				</div>
 			</div>
 
@@ -63,7 +63,7 @@
 				<img src="{{ URL::asset('assets/images/seccion_cuatro/aloflamenko/1_thumb.jpg') }}" class="img-responsive" alt="Proyecto">
 				<div class="overlay">
 					<h2>A lo Flamenko</h2>
-					<a class="info" href="#" data-toggle="modal" data-target="#aloflamenko">Detalles</a>
+					<a class="info" href="#" data-toggle="modal" data-target="#aloflamenko">{{ trans('seccion_cuatro.detalles') }}</a>
 				</div>
 			</div>
 
@@ -83,7 +83,7 @@
 				<img src="{{ URL::asset('assets/images/seccion_cuatro/adhara/1_thumb.jpg') }}" class="img-responsive" alt="Proyecto">
 				<div class="overlay">
 					<h2>Adhara Collections</h2>
-					<a class="info" href="#" data-toggle="modal" data-target="#adhara">Detalles</a>
+					<a class="info" href="#" data-toggle="modal" data-target="#adhara">{{ trans('seccion_cuatro.detalles') }}</a>
 				</div>
 			</div>
 
@@ -99,7 +99,7 @@
 				<img src="{{ URL::asset('assets/images/seccion_cuatro/logoman/1_thumb.jpg') }}" class="img-responsive" alt="Proyecto">
 				<div class="overlay">
 					<h2>Logoman</h2>
-					<a class="info" href="#" data-toggle="modal" data-target="#logoman">Detalles</a>
+					<a class="info" href="#" data-toggle="modal" data-target="#logoman">{{ trans('seccion_cuatro.detalles') }}</a>
 				</div>
 			</div>
 
@@ -114,8 +114,8 @@
 			<div class="hovereffect hidden-sm">
 				<img src="{{ URL::asset('assets/images/seccion_cuatro/travelconsultores/1_thumb.jpg') }}" class="img-responsive" alt="Proyecto">
 				<div class="overlay">
-					<h2>Travel Consultores</h2>
-					<a class="info" href="#" data-toggle="modal" data-target="#travelconsultores">Detalles</a>
+					<h2>{{ trans('seccion_cuatro.travel_titulo') }}</h2>
+					<a class="info" href="#" data-toggle="modal" data-target="#travelconsultores">{{ trans('seccion_cuatro.detalles') }}</a>
 				</div>
 			</div>
 

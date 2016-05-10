@@ -19,7 +19,13 @@ class HomePublicController extends Controller
 	public function index()
     {
 
-    	$language = App::getLocale();
+    	if (session()->has('idioma')) {
+    		$language = session('idioma');
+    		App::setLocale($language);
+    	}else{
+    		$language = 'en';
+    	}
+
         return view('layouts.public', compact('language'));
 
 	}

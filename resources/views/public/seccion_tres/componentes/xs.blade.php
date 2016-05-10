@@ -18,7 +18,7 @@
 
 	<div class="col-xs-12">
 
-		<strong>Bootstrap + Diseño adaptativo</strong>
+		<strong>Bootstrap + {{ trans('seccion_tres.diseno_adaptativo') }}</strong>
 
 		<div class="progress barra_progreso">
 			<div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
@@ -56,20 +56,6 @@
 			<div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
 				<span class="sr-only">75% Complete</span>
 			</div>
-		</div>
-
-	</div>
-
-</div>
-
-<div class="row">
-
-	<div class="col-xs-12">
-
-		<div class="alert alert-blue" role="alert">
-			
-			<strong>Conocimientos en:</strong> Github, Amazon Web Services, CakePHP, jQuery, jQuery UI, Foundation, Metro UI, XML, Python, C++, Java, SQL...  
-
 		</div>
 
 	</div>

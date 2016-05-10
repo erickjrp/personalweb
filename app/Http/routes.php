@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', 'HomePublicController@index');
-Route::post('/enviarcorreo', 'MailController@index');
-Route::post('/language', 'LanguageController@index');
+Route::group(['middleware' => 'web'], function () {
+	Route::get('/', 'HomePublicController@index');
+	Route::post('/enviarcorreo', 'MailController@index');
+	Route::post('/language', 'LanguageController@index');
+});

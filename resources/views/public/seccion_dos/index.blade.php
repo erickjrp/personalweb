@@ -3,7 +3,7 @@
 	<div class="col-xs-12">
 		
 		<p class="titulo_seccion text-center">
-			Sobre mí
+			{{ trans('seccion_dos.sobre_mi') }}
 		</p>
 
 	</div>
@@ -34,9 +34,9 @@
 		<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
 
 			<p class="texto_sobre_mi text-justify">
-				Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.
+				{{ trans('seccion_dos.primer_parrafo') }}
 				<br /><br />
-				Facer libris qui ea, mel ludus persius suscipiantur te. Eos soleat inimicus liberavisse at. Ex sit mazim soluta lobortis, ut nec bonorum splendide, mel tation erroribus principes eu. Cum ne vero albucius disputando. Et vidit movet sea. Falli appetere ut vix, eu offendit sapientem est. Postulant delicatissimi ex mea, ne modo nostrud salutandi usu, cu ignota dissentiunt his.
+				{{ trans('seccion_dos.segundo_parrafo') }}
 			</p>
 
 		</div>
@@ -49,10 +49,10 @@
 			
 			<p class="titulo_intereses">
 				<i class="fa fa-music fa-fw" aria-hidden="true"></i>
-				Música
+				{{ trans('seccion_dos.titulo_musica') }}
 			</p>
 			<p class="text-justify texto_intereses">
-				Efficiently revolutionize one-to-one potentialities before B2B models. Continually leverage other's resource-leveling niche markets whereas focused processes. Distinctively transition high standards in total linkage.
+				{{ trans('seccion_dos.musica') }}
 			</p>
 
 		</div>
@@ -61,10 +61,10 @@
 			
 			<p class="titulo_intereses">
 				<i class="fa fa-futbol-o fa-fw" aria-hidden="true"></i>
-				Deporte
+				{{ trans('seccion_dos.titulo_deporte') }}
 			</p>
 			<p class="text-justify texto_intereses">
-				Efficiently revolutionize one-to-one potentialities before B2B models. Continually leverage other's resource-leveling niche markets whereas focused processes. Distinctively transition high standards in total linkage.
+				{{ trans('seccion_dos.deporte') }}
 			</p>
 
 		</div>
@@ -73,10 +73,10 @@
 			
 			<p class="titulo_intereses">
 				<i class="fa fa-graduation-cap fa-fw" aria-hidden="true"></i>
-				Enseñanza
+				{{ trans('seccion_dos.titulo_ensenanza') }}
 			</p>
 			<p class="text-justify texto_intereses">
-				Efficiently revolutionize one-to-one potentialities before B2B models. Continually leverage other's resource-leveling niche markets whereas focused processes. Distinctively transition high standards in total linkage.
+				{{ trans('seccion_dos.ensenanza') }}
 			</p>
 
 		</div>

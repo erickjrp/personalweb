@@ -28,7 +28,7 @@
 
 				<strong>
 
-					© 2016 Erick Ramírez. All rights reserved.
+					© 2016 Erick Ramírez. {{ trans('seccion_siete.derechos') }}.
 
 				</strong>
 
@@ -55,17 +55,17 @@
 					<div class="form-group">
 
 						<label for="idioma">
-							Idioma:
+							{{ trans('seccion_siete.idioma') }}:
 						</label>
 
 						<select class="form-control input-sm" id="idioma" name="idioma">
 
 							<option value="en" @if($language == 'en') selected @endif>
-								Inglés
+								English (US) 
 							</option>
 
 							<option value="es" @if($language == 'es') selected @endif>
-								Español
+								Español (ES)
 							</option>
 
 						</select>
@@ -74,7 +74,7 @@
 
 					<button type="submit" class="btn btn-default btn-sm">
 						<i class="fa fa-language fa-fw" aria-hidden="true"></i>
-						Seleccionar
+						{{ trans('seccion_siete.seleccionar') }}
 					</button>
 
 				{!! Form::close() !!}

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use Mail;
+use App;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Redirect;
@@ -29,8 +30,25 @@ class MailController extends Controller
             $m->to('erick29@gmail.com', 'Erick Ramírez')->subject('Contacto desde www.erickjrp.com.ve');
         });
 
-    	Session::flash('success_message', 'El mensaje ha sido enviado');
-        return Redirect::to('/');
+        if (session()->has('idioma')) {
+
+            $language = session('idioma');
+            
+            if ($language == 'en') {
+                $mensaje = 'Message has been sent';
+            }else{
+                $mensaje = 'El mensaje ha sido enviado';
+            }
+
+        }else{
+            $mensaje = 'Message has been sent';
+            $language = 'en';
+        }
+
+        App::setLocale($language);
+
+    	Session::flash('success_message', $mensaje);
+        return view('layouts.public', compact('language'));
 
 	}
 
