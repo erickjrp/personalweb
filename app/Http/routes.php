@@ -12,7 +12,15 @@
 */
 
 Route::group(['middleware' => 'web'], function () {
+
+	/*Personal web*/
 	Route::get('/', 'HomePublicController@index');
 	Route::post('/enviarcorreo', 'MailController@index');
 	Route::post('/language', 'LanguageController@index');
+	/*Finaliza personal web*/
+
+	/*Proba*/
+	Route::get('/probabilidad', 'ProbaController@index');
+	/*Finaliza proba*/
+
 });
