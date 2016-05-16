@@ -1,0 +1,50 @@
+/*Para todo el sitio*/
+body {
+	padding-top: 50px;
+}
+/*Finaliza para todo el sitio*/
+
+/*Index*/
+.fondo_gris{
+	background-color:#f5f5f5;
+	padding-top: 20px;
+}
+.carrusel_sin_sombra{
+	background: none !important;
+
+}
+.flechas{
+	text-shadow: 0 3px 2px rgba(0,0,0,0.6);
+}
+.marcadores{
+	border: 1px solid #337ab7 !important;
+}
+.carrusel-indicadores .marcadores {
+    background-color: #FFF;
+}
+.carrusel-indicadores .active {
+    background-color: #337ab7;
+}
+@media (min-width: 1200px){
+	.carrusel_sin_sombra{
+		width: 12%;
+	}
+	.carrusel-indicadores{   
+	    width: 5%;
+	    margin-left: -2.55%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.carrusel_sin_sombra{
+		width: 3%;
+	}
+	.cuerpo_panel{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.carrusel-indicadores{
+	    width: 6%;
+	    margin-left: -3%;
+	}
+}
+/*Finaliza index*/

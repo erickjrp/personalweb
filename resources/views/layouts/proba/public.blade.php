@@ -19,11 +19,9 @@
 </head>
 <body>
 
-  <div class="container">
+  @include('layouts.proba.components.menu')
 
-    @include('public.proba.index')
-
-  </div>
+  @yield('content')
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
