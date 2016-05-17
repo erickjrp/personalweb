@@ -33,6 +33,13 @@ body {
 	    width: 5%;
 	    margin-left: -2.55%;
 	}
+	.espaciado_panel{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.espacio_blanco{
+		height: 10px;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px){
 	.carrusel_sin_sombra{
@@ -45,6 +52,9 @@ body {
 	.carrusel-indicadores{
 	    width: 6%;
 	    margin-left: -3%;
+	}
+	.espacio_blanco{
+		height: 10px;
 	}
 }
 /*Finaliza index*/
