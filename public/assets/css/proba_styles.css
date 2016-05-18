@@ -2,6 +2,16 @@
 body {
 	padding-top: 50px;
 }
+body, div, h1, h2, h3, h4, h5, h6, p, body, div, label, a, span{
+	font-family: 'Open Sans', sans-serif;
+}
+.raya_divisora {
+    background-color: #337ab7;
+    height: 2px;
+    width: 100px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
 /*Finaliza para todo el sitio*/
 
 /*Index*/
@@ -11,7 +21,6 @@ body {
 }
 .carrusel_sin_sombra{
 	background: none !important;
-
 }
 .flechas{
 	text-shadow: 0 3px 2px rgba(0,0,0,0.6);
@@ -24,6 +33,12 @@ body {
 }
 .carrusel-indicadores .active {
     background-color: #337ab7;
+}
+.fila_thumbnails{
+	padding-top: 20px;
+}
+.contenido_destacado{
+	margin-top: 10px;
 }
 @media (min-width: 1200px){
 	.carrusel_sin_sombra{
