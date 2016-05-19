@@ -59,7 +59,7 @@
 					</p>
 
 					<p>
-						<a href="#" class="btn btn-primary btn-block" role="button">
+						<a href="{{ URL::asset('assets/images/proba/index/Tabla_combinaciones.pdf') }}" class="btn btn-primary btn-block" role="button" target="_blank">
 							Ver tabla
 						</a>
 					</p>
@@ -99,7 +99,7 @@
 
 		</div>
 
-		<div class="col-xs-12 hidden-sm col-md-4 col-lg-4">
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 
 			<div class="thumbnail">
 
@@ -112,8 +112,8 @@
 					</h3>
 
 					<p class="text-justify">
-						El resumen de lo más importante del tema "Prueba de hipótesis" se encuentra en esta tabla:
-						Casos de cola izquierda, derecha, doble cola; errores tipo I y II, nivel de significancia, potencia de la prueba, y más.  
+						El resumen de lo más importante del tema "Prueba de hipótesis"<show class="visible-sm-inline">.</show> <hide class="hidden-sm"> se encuentra en esta tabla:
+						Casos de cola izquierda, derecha, doble cola; errores tipo I y II, nivel de significancia, potencia de la prueba, y más. </hide>
 					</p>
 
 					<p>
@@ -127,11 +127,6 @@
 			</div>
 
 		</div>
-
-	</div>
-
-
-	<div class="row">
 
 		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 
@@ -150,7 +145,7 @@
 					</p>
 
 					<p>
-						<a href="#" class="btn btn-primary btn-block" role="button">
+						<a href="{{ URL::asset('assets/images/proba/index/Tabla_normal_estandar.pdf') }}" class="btn btn-primary btn-block" role="button" target="_blank">
 							Ver tabla
 						</a>
 					</p>
@@ -178,7 +173,7 @@
 					</p>
 
 					<p>
-						<a href="#" class="btn btn-primary btn-block" role="button">
+						<a href="{{ URL::asset('assets/images/proba/index/Tabla_t_de_Student.pdf') }}" class="btn btn-primary btn-block" role="button" target="_blank">
 							Ver tabla
 						</a>
 					</p>
@@ -189,7 +184,7 @@
 
 		</div>
 
-		<div class="col-xs-12 hidden-sm col-md-4 col-lg-4">
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 
 			<div class="thumbnail">
 
@@ -218,7 +213,6 @@
 		</div>
 
 	</div>
-
 
 </div>
 

@@ -66,7 +66,7 @@
 								</div>
 								<div class="panel-body espaciado_panel text-justify">
 									
-									Definición de variables aleatorias. Variables aleatorias discretas y continuas. Distribución de probabilidad. Esperanza y Varianza de una variable aleatoria. Función generadora de momentos. Transformación de una variable aleatoria.
+									Definición de variables aleatorias. Variables aleatorias discretas y continuas. Distribución de probabilidad. Esperanza y Varianza de una variable aleatoria. Función generadora de momentos. Transformación de una V.A.
 
 									<a href="#">
 										Ver detalles
@@ -87,7 +87,7 @@
 								</div>
 								<div class="panel-body espaciado_panel text-justify">
 
-									Distribuciones con nombre propio. Distribuciones discretas: Bernoulli, Geométrica, Binomial, Binomial negativa, Hipergeométrica, Uniforme y Poisson. Distribuciones Continuas especiales: Uniforme, Exponencial, Gamma, Normal.
+									Distribuciones con nombre propio. Distribuciones discretas: Bernoulli, Geométrica, Binomial, Binomial negativa, Hipergeométrica, Uniforme y Poisson. Continuas: Uniforme, Exponencial, Gamma, Normal.
 
 									<a href="#">
 										Ver detalles
@@ -186,7 +186,7 @@
 								</div>
 								<div class="panel-body">
 
-									Clasificación de estados, vector de probabilidades límite.
+									Estados, vector de probabilidades límite.
 
 									<a href="#">
 										Ver detalles
