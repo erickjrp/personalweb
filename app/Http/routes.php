@@ -20,7 +20,7 @@ Route::group(['middleware' => 'web'], function () {
 	/*Finaliza personal web*/
 
 	/*Proba*/
-	Route::get('/probabilidad', 'ProbaController@index');
+	Route::get('/probabilidadyestadistica', 'ProbaController@index');
 	/*Finaliza proba*/
 
 });

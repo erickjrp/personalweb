@@ -8,39 +8,49 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">PROBABILIDAD Y ESTADÍSTICA</a>
+      <a class="navbar-brand visible-xs-block visible-sm-block" href="#">PROBABILIDAD Y EST.</a>
+      <a class="navbar-brand hidden-xs hidden-sm" href="#">PROBABILIDAD Y ESTADÍSTICA</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contenido <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li class="dropdown-header">Tema N° 1</li>
+            <li><a href="#">Fundamentos de probabilidad</a></li>
+            <li class="dropdown-header">Tema N° 2</li>
+            <li><a href="#">Variables aleatorias</a></li>
+            <li class="dropdown-header">Tema N° 3</li>
+            <li><a href="#">Distribuciones</a></li>
+            <li class="dropdown-header">Tema N° 4</li>
+            <li><a href="#">Distribuciones conjuntas</a></li>
+            <li class="dropdown-header">Tema N° 5</li>
+            <li><a href="#">Teorema Central del Límite</a></li>
+            <li class="dropdown-header">Tema N° 6</li>
+            <li><a href="#">Intervalos de confianza</a></li>
+            <li class="dropdown-header">Tema N° 7</li>
+            <li><a href="#">Prueba de hipótesis</a></li>
+            <li class="dropdown-header">Tema N° 8</li>
+            <li><a href="#">Cadenas de Markov</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tablas <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Combinatorias</a></li>
+            <li><a href="#">Distribuciones</a></li>
+            <li><a href="#">Prueba de hipótesis</a></li>
+            <li><a href="#">Normal estándar</a></li>
+            <li><a href="#">t de Student</a></li>
+            <li><a href="#">Chi cuadrada</a></li>
           </ul>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
+        <li><a href="#">¿Necesitas ayuda? ¡Contáctame!</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

@@ -88,7 +88,7 @@
 					</p>
 
 					<p>
-						<a href="#" class="btn btn-primary btn-block" role="button">
+						<a href="{{ URL::asset('assets/images/proba/index/Tabla_distribuciones.pdf') }}" class="btn btn-primary btn-block" role="button" target="_blank">
 							Ver tabla
 						</a>
 					</p>
