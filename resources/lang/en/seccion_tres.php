@@ -3,5 +3,5 @@
 return [
     'habilidades' => 'Skills',
     'diseno_adaptativo' => 'Responsive design',
-    'conocimientos' => 'Knowledge'
+    'conocimientos' => 'I have knowledge of'
 ];

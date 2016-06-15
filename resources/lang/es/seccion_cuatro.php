@@ -6,12 +6,12 @@ return [
     'visitar' => 'Visitar',
     'cerrar' => 'Cerrar',
     'telas_y_metales_titulo' => 'Telas y Metales',
-    'telas_y_metales' => 'Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.',
+    'telas_y_metales' => 'Para el desarrollo de este proyecto se usó: HTML5, CSS3, JavaScript, jQuery y Bootstrap.',
     'escuela_titulo' => 'Escuela de Computación',
-    'escuela' => 'Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.',
-    'a_lo_flamenko' => 'Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.',
-    'adhara' => 'Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.',
-    'logoman' => 'Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.',
+    'escuela' => 'Para el desarrollo de este proyecto se usó: CakePHP, MySQL, HTML5, CSS3, JavaScript, jQuery y Bootstrap.',
+    'a_lo_flamParako' => 'Para el desarrollo de este proyecto se usó: HTML5, CSS3, JavaScript, jQuery y Bootstrap.',
+    'adhara' => 'Para el desarrollo de este proyecto se usó: Laravel, HTML5, CSS3, JavaScript, jQuery y Bootstrap.',
+    'logoman' => 'Para el desarrollo de este proyecto se usó: Amazon Web Services, Laravel, MySQL, HTML5, CSS3, JavaScript, jQuery, Bootstrap, y otras librerías de JavaScript.',
     'travel_titulo' => 'Travel Consultores',
-    'travel' => 'Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.'
+    'travel' => 'Para el desarrollo de este proyecto se usó: Laravel, MySQL, HTML5, CSS3, JavaScript, jQuery y Bootstrap.'
 ];

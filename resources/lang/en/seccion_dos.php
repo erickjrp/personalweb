@@ -2,12 +2,12 @@
 
 return [
     'sobre_mi' => 'About me',
-    'primer_parrafo' => 'Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.',
-    'segundo_parrafo' => 'Facer libris qui ea, mel ludus persius suscipiantur te. Eos soleat inimicus liberavisse at. Ex sit mazim soluta lobortis, ut nec bonorum splendide, mel tation erroribus principes eu. Cum ne vero albucius disputando. Et vidit movet sea. Falli appetere ut vix, eu offendit sapientem est. Postulant delicatissimi ex mea, ne modo nostrud salutandi usu, cu ignota dissentiunt his.',
+    'primer_parrafo' => 'I have vast experience in the following technologies: HTML5, CSS3, JavaScript, jQuery, Bootstrap, AngularJS, Ajax, PHP, Laravel, and MySQL. My scope includes the development of self-managing web applications, personal sites, dynamic institutional pages, and statistics management systems, among others.',
+    'segundo_parrafo' => 'I learn something new every day, and I\'m always with the best disposition and devotion to face new challenges. My main goal is to constantly grow as a person and as a professional, always trying to give my best.',
     'titulo_musica' => 'Music',
-    'musica' => 'Efficiently revolutionize one-to-one potentialities before B2B models. Continually leverage others resource-leveling niche markets whereas focused processes. Distinctively transition high standards in total linkage.',
+    'musica' => 'From an early age, I learned to play guitar and then I started practicing singing and other instruments such as keyboard and bass. Music is one of my great passions and active part of my daily life.',
     'titulo_deporte' => 'Sports',
-    'deporte' => 'Efficiently revolutionize one-to-one potentialities before B2B models. Continually leverage others resource-leveling niche markets whereas focused processes. Distinctively transition high standards in total linkage.',
+    'deporte' => 'I enjoy playing tennis, volleyball, baseball, table tennis, swimming and football especially, the latter is my favorite one and I practice it with regularity. I try to stay physically active through sports.',
     'titulo_ensenanza' => 'Teaching',
-    'ensenanza' => 'Efficiently revolutionize one-to-one potentialities before B2B models. Continually leverage others resource-leveling niche markets whereas focused processes. Distinctively transition high standards in total linkage.'
+    'ensenanza' => 'I had the opportunity to teach Probability and Statistics for more than three years and I also was instructor in different training programs. Today I continue teaching through particular classes.'
 ];

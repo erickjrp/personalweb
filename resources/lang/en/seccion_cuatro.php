@@ -6,12 +6,12 @@ return [
     'visitar' => 'Visit',
     'cerrar' => 'Close',
     'telas_y_metales_titulo' => 'Cloth & Metals',
-    'telas_y_metales' => 'Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.',
-    'escuela_titulo' => 'Computer School',
-    'escuela' => 'Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.',
-    'a_lo_flamenko' => 'Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.',
-    'adhara' => 'Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.',
-    'logoman' => 'Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.',
+    'telas_y_metales' => 'This project was made using: HTML5, CSS3, JavaScript, jQuery, and Bootstrap.',
+    'escuela_titulo' => 'School of Computer Science',
+    'escuela' => 'This project was made using: CakePHP, MySQL, HTML5, CSS3, JavaScript, jQuery, and Bootstrap.',
+    'a_lo_flamenko' => 'This project was made using: HTML5, CSS3, JavaScript, jQuery, and Bootstrap.',
+    'adhara' => 'This project was made using: Laravel, HTML5, CSS3, JavaScript, jQuery, and Bootstrap.',
+    'logoman' => 'This project was made using: Amazon Web Services, Laravel, MySQL, HTML5, CSS3, JavaScript, jQuery, Bootstrap, and a few more JavaScript libraries.',
     'travel_titulo' => 'Travel Consultants',
-    'travel' => 'Lorem ipsum dolor sit amet, vel no saepe invenire, magna similique vis no. Eam tollit gloriatur ad, quaeque euismod tractatos usu eu. Apeirian detraxit consequat vis ne, natum brute quidam nec no. Sit in accusamus aliquando, an his aeque iusto delicata.'
+    'travel' => 'This project was made using: Laravel, MySQL, HTML5, CSS3, JavaScript, jQuery, and Bootstrap.'
 ];
