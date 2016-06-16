@@ -13,8 +13,8 @@
 		</p>
 
 		<div class="progress barra_progreso">
-			<div class="progress-bar progress-bar-blue" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-				<span class="sr-only">90% Complete</span>
+			<div class="progress-bar progress-bar-blue" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+				<span class="sr-only">95% Complete</span>
 			</div>
 		</div>
 
@@ -33,8 +33,8 @@
 		</p>
 
 		<div class="progress barra_progreso">
-			<div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-				<span class="sr-only">80% Complete</span>
+			<div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+				<span class="sr-only">95% Complete</span>
 			</div>
 		</div>
 
@@ -101,8 +101,8 @@
 		</p>
 
 		<div class="progress barra_progreso">
-			<div class="progress-bar progress-bar-blue" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-				<span class="sr-only">85% Complete</span>
+			<div class="progress-bar progress-bar-blue" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+				<span class="sr-only">95% Complete</span>
 			</div>
 		</div>
 
@@ -121,8 +121,8 @@
 		</p>
 
 		<div class="progress barra_progreso">
-			<div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-				<span class="sr-only">75% Complete</span>
+			<div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+				<span class="sr-only">90% Complete</span>
 			</div>
 		</div>
 
@@ -165,8 +165,8 @@
 		</p>
 
 		<div class="progress barra_progreso">
-			<div class="progress-bar progress-bar-blue" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-				<span class="sr-only">80% Complete</span>
+			<div class="progress-bar progress-bar-blue" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+				<span class="sr-only">90% Complete</span>
 			</div>
 		</div>
 

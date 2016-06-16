@@ -95,7 +95,7 @@
 
       </div>
       <div class="modal-footer text-center">
-        <a class="btn btn-primary" href="#logoman" role="button" target="_blank">
+        <a class="btn btn-primary disabled" href="#logoman" role="button" target="_blank">
           <i class="fa fa-link fa-fw" aria-hidden="true"></i>
           {{ trans('seccion_cuatro.visitar') }}
         </a>

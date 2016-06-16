@@ -99,7 +99,7 @@
 
       </div>
       <div class="modal-footer text-center">
-        <a class="btn btn-primary" href="http://adharave.com/" role="button" target="_blank">
+        <a class="btn btn-primary disabled" href="http://adharave.com/" role="button" target="_blank">
           <i class="fa fa-link fa-fw" aria-hidden="true"></i>
           {{ trans('seccion_cuatro.visitar') }}
         </a>
